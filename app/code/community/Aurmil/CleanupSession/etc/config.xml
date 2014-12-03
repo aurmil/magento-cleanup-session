@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Aurmil_CleanupSession>
+            <version>1.0.0</version>
+        </Aurmil_CleanupSession>
+    </modules>
+    <global>
+        <models>
+            <aurmil_cleanupsession>
+                <class>Aurmil_CleanupSession_Model</class>
+            </aurmil_cleanupsession>
+        </models>
+        <helpers>
+            <aurmil_cleanupsession>
+                <class>Aurmil_CleanupSession_Helper</class>
+            </aurmil_cleanupsession>
+        </helpers>
+        <template>
+            <email>
+                <system_session_clean_error_email_template translate="label" module="aurmil_cleanupsession">
+                    <label>Session cleanup Warnings</label>
+                    <file>session_clean_warning.html</file>
+                    <type>text</type>
+                </system_session_clean_error_email_template>
+            </email>
+        </template>
+    </global>
+    <adminhtml>
+        <translate>
+            <modules>
+                <aurmil_cleanupsession>
+                    <files>
+                        <default>Aurmil_CleanupSession.csv</default>
+                    </files>
+                </aurmil_cleanupsession>
+            </modules>
+        </translate>
+    </adminhtml>
+    <default>
+        <system>
+            <session_clean>
+                <enabled>1</enabled>
+                <time>00,00,00</time>
+                <frequency>D</frequency>
+                <error_email_identity>general</error_email_identity>
+                <error_email_template>system_session_clean_error_email_template</error_email_template>
+            </session_clean>
+        </system>
+    </default>
+    <crontab>
+        <jobs>
+            <session_clean>
+                <schedule>
+                    <cron_expr>0 0 * * *</cron_expr>
+                </schedule>
+                <run>
+                    <model>aurmil_cleanupsession/cron::sessionClean</model>
+                </run>
+            </session_clean>
+        </jobs>
+    </crontab>
+</config>
