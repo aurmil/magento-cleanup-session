@@ -1,0 +1,13 @@
+# code
+app/code/community/Aurmil/CleanupSession
+
+# module declaration
+app/etc/modules/Aurmil_CleanupSession.xml
+
+# English localization
+app/locale/en_US/template/email/session_clean_warning.html
+app/locale/en_US/Aurmil_CleanupSession.csv
+
+# French localization
+app/locale/fr_FR/template/email/session_clean_warning.html
+app/locale/fr_FR/Aurmil_CleanupSession.csv
