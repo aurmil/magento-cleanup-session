@@ -55,6 +55,8 @@ No Magento files will be modified, no extended class, no overridden method.
 }
 ```
 
+* Install or update your composer project dependencies
+
 ## Usage
 
 In __System > Configuration > Advanced > System__, this extension adds a new group: __Session Cleaning__.
