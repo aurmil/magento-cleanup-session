@@ -52,7 +52,8 @@ No Magento files will be modified, no extended class, no overridden method.
 	"extra": {
 		"magento-root-dir": "./"
 	}
-}```
+}
+```
 
 ## Usage
 
