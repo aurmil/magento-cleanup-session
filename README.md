@@ -30,6 +30,30 @@ No Magento files will be modified, no extended class, no overridden method.
 
 * ```$ modman clone git@github.com:aurmil/magento-cleanup-session.git```
 
+### With composer
+
+* Adapt the following "composer.json" file into yours:
+
+```
+{
+	"require": {
+		"aurmil/magento-cleanup-session": "dev-master"
+	},
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        },
+        {
+            "type": "vcs",
+            "url": "git://github.com/aurmil/magento-cleanup-session"
+        }
+    ],
+	"extra": {
+		"magento-root-dir": "./"
+	}
+}```
+
 ## Usage
 
 In __System > Configuration > Advanced > System__, this extension adds a new group: __Session Cleaning__.

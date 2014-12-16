@@ -1,0 +1,17 @@
+{
+    "name": "aurmil/magento-cleanup-session",
+    "description": "Magento - Clean Up Session extension",
+    "type": "magento-module",
+    "keywords": ["session"],
+    "homepage": "https://github.com/aurmil/magento-cleanup-session",
+    "authors": [
+        {
+            "name": "Aurélien Millet",
+            "homepage": "http://www.aurelien-millet.fr/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
