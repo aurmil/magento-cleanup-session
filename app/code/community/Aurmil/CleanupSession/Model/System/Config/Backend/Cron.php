@@ -29,7 +29,7 @@ extends Mage_Core_Model_Config_Data
                 '*',                                           # Month of the Year
                 ($frequency == $frequencyWeekly) ? '1' : '*',  # Day of the Week
             );
-            $cronExprString = join(' ', $cronExprArray);
+            $cronExprString = implode(' ', $cronExprArray);
         }
 
         try {
