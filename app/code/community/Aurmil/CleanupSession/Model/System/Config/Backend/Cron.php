@@ -4,7 +4,6 @@
  * @author     Aurélien Millet
  * @link       https://github.com/aurmil/
  */
-
 class Aurmil_CleanupSession_Model_System_Config_Backend_Cron
 extends Mage_Core_Model_Config_Data
 {
