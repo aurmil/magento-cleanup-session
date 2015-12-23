@@ -14,7 +14,7 @@ Tested on Magento CE 1.6 - 1.9
 
 * Free and open source
 * Fully configurable
-* Bundled with English and French translations
+* Bundled with English, French and Dutch (thanks to Michel van de Wiel) translations
 
 ## Installation
 
