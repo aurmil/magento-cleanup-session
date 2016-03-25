@@ -1,4 +1,4 @@
-# Magento - Clean Up Session extension
+# Magento - Clean up session extension
 
 ## Overview
 
@@ -20,15 +20,15 @@ Tested on Magento CE 1.6 - 1.9
 
 No Magento files will be modified, no extended class, no overridden method.
 
+### With modman
+
+* ```$ modman clone git@github.com:aurmil/magento-cleanup-session.git```
+
 ### Manually
 
 * Download the latest version of this module [here](https://github.com/aurmil/magento-cleanup-session/archive/master.zip)
 * Unzip it
 * Move the "app" folder into the root directory of your Magento application, it will be merged with the existing "app" folder
-
-### With modman
-
-* ```$ modman clone git@github.com:aurmil/magento-cleanup-session.git```
 
 ### With composer
 
@@ -36,9 +36,9 @@ No Magento files will be modified, no extended class, no overridden method.
 
 ```
 {
-	"require": {
-		"aurmil/magento-cleanup-session": "dev-master"
-	},
+    "require": {
+        "aurmil/magento-cleanup-session": "dev-master"
+    },
     "repositories": [
         {
             "type": "composer",
@@ -49,9 +49,9 @@ No Magento files will be modified, no extended class, no overridden method.
             "url": "git://github.com/aurmil/magento-cleanup-session"
         }
     ],
-	"extra": {
-		"magento-root-dir": "./"
-	}
+    "extra": {
+        "magento-root-dir": "./"
+    }
 }
 ```
 
