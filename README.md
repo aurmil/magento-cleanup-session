@@ -72,3 +72,7 @@ You are free to change these settings and set an email address to receive log em
 ### 1.0
 
 * Initial release
+
+## License
+
+The MIT License (MIT). Please see [License File](https://github.com/aurmil/magento-cleanup-session/blob/master/LICENSE.md) for more information.
