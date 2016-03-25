@@ -11,6 +11,8 @@
     ],
     "homepage": "https://github.com/aurmil/magento-cleanup-session",
     "type": "magento-module",
+    "license": "MIT",
+    "require": {
         "magento-hackathon/magento-composer-installer": "*"
     }
 }

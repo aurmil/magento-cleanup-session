@@ -1,4 +1,11 @@
 <?xml version="1.0"?>
+<!--
+/**
+ * @author Aurélien Millet
+ * @link https://github.com/aurmil/magento-cleanup-session
+ * @license https://github.com/aurmil/magento-cleanup-session/blob/master/LICENSE.md
+ */
+-->
 <config>
     <sections>
         <system>

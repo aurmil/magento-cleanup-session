@@ -1,9 +1,10 @@
 <?php
-
 /**
- * @author     Aurélien Millet
- * @link       https://github.com/aurmil/
+ * @author Aurélien Millet
+ * @link https://github.com/aurmil/magento-cleanup-session
+ * @license https://github.com/aurmil/magento-cleanup-session/blob/master/LICENSE.md
  */
+
 class Aurmil_CleanupSession_Model_System_Config_Backend_Cron
 extends Mage_Core_Model_Config_Data
 {
