@@ -8,7 +8,7 @@
 class Aurmil_CleanupSession_Model_System_Config_Backend_Cron
 extends Mage_Core_Model_Config_Data
 {
-    const CRON_STRING_PATH  = 'crontab/jobs/session_clean/schedule/cron_expr';
+    const CRON_STRING_PATH  = 'crontab/jobs/aurmil_session_clean/schedule/cron_expr';
 
     protected function _afterSave()
     {

@@ -13,16 +13,16 @@
         </Aurmil_CleanupSession>
     </modules>
     <global>
-        <models>
-            <aurmil_cleanupsession>
-                <class>Aurmil_CleanupSession_Model</class>
-            </aurmil_cleanupsession>
-        </models>
         <helpers>
             <aurmil_cleanupsession>
                 <class>Aurmil_CleanupSession_Helper</class>
             </aurmil_cleanupsession>
         </helpers>
+        <models>
+            <aurmil_cleanupsession>
+                <class>Aurmil_CleanupSession_Model</class>
+            </aurmil_cleanupsession>
+        </models>
         <template>
             <email>
                 <system_session_clean_error_email_template translate="label" module="aurmil_cleanupsession">
@@ -57,14 +57,10 @@
     </default>
     <crontab>
         <jobs>
-            <session_clean>
-                <schedule>
-                    <cron_expr>0 0 * * *</cron_expr>
-                </schedule>
-                <run>
-                    <model>aurmil_cleanupsession/cron::sessionClean</model>
-                </run>
-            </session_clean>
+            <aurmil_session_clean>
+                <schedule><cron_expr>0 0 * * *</cron_expr></schedule>
+                <run><model>aurmil_cleanupsession/cron::sessionClean</model></run>
+            </aurmil_session_clean>
         </jobs>
     </crontab>
 </config>
