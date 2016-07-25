@@ -22,7 +22,7 @@ No Magento files will be modified, no extended class, no overridden method.
 
 ### With modman
 
-* ```$ modman clone git@github.com:aurmil/magento-cleanup-session.git```
+* ```$ modman clone https://github.com/aurmil/magento-cleanup-session.git```
 
 ### Manually
 
