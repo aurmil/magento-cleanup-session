@@ -67,6 +67,7 @@ Default values enable session cleanup task, daily at midnight.
 
 You are free to change these settings and set an email address to receive log email if an error occurs.
 
+Note: when removing this module, the scheduled task remains. Remove it from DB (__core_config_data__ table, remove entry where __path__ = __crontab/jobs/aurmil_session_clean/schedule/cron_expr__) or disable it in admin if you have [AOE Scheduler module](https://github.com/AOEpeople/Aoe_Scheduler).
 
 ## License
 
