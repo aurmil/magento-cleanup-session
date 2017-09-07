@@ -67,6 +67,7 @@ Default values enable session cleanup task, daily at midnight.
 
 You are free to change these settings and set an email address to receive log email if an error occurs.
 
+
 ## License
 
 The MIT License (MIT). Please see [License File](https://github.com/aurmil/magento-cleanup-session/blob/master/LICENSE.md) for more information.
