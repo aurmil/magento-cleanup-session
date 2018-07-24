@@ -61,7 +61,7 @@ No Magento files will be modified, no extended class, no overridden method.
 
 In __System > Configuration > Advanced > System__, this extension adds a new group: __Session Cleaning__.
 
-![](http://4.bp.blogspot.com/-O7uSYP1x43Q/VH811dxaMSI/AAAAAAAAR88/43metOSczQc/s1600/session-cleanup.png)
+![](docs/images/cleanup-session-cron-config.png)
 
 Default values enable session cleanup task, daily at midnight.
 
